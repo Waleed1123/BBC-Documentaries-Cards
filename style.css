@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(23, 23, 23);
+}
+
+.super-div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    margin-bottom: 20px;
+    
+}
+.main1{
+    display: inline-block;
+    width: 150px;
+    height: 250px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 12px 28px 0px, rgba(255, 255, 255, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+        margin-top: 50px;
+     border-radius: 15px 0 0 15px ;
+}
+.main1 img{
+    border-radius: 15px 0 0 15px ;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.main2{
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 12px 28px 0px, rgba(255, 255, 255, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+        color: white;
+    border-radius: 0 15px 15px 0px;
+    background-color: black;
+    margin-top: 50px;
+
+}
+.main2 h1{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    word-spacing: 7px;
+    margin: 5px;
+    margin-top: 6px;
+    text-transform: uppercase;
+}
+.title{
+    margin: 7px;
+    font-size: 0.8rem;
+    word-spacing: 1px;
+}
+.title span{
+    word-spacing: 1px;
+    margin-left: 4px;
+}
+
+.para1{
+    margin: 5px;
+    font-size: 0.7rem;
+    word-spacing: 1px;
+    line-height: 0.9rem;
+    width: 95%;
+    text-align: justify;
+}
+.read{
+    font-size: 0.6rem;
+    cursor: pointer;
+    background-color: none;
+    border: none;
+    background-color: black;
+    color: rgb(255, 186, 10) ;
+    margin: 5px;
+    margin-left: 18px;
+    display: block;
+}
+.read:hover{
+    color: white;
+    transition: all 0.5s;
+}
+.watch{
+    background-color: black;
+    color: rgb(255, 186, 10) ;
+    padding: 5px 12px;
+    font-size: 0.5rem;
+    border: 2px solid yellow;
+    margin: 3px;
+    margin-left: 8px;
+    border-radius: 6px;
+}
+.watch:hover{
+    background-color: rgb(255, 186, 10);
+    color: white;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: all 0.4s;
+
+}
+.blue-planet .para1{
+ font-size: 0.7rem;   
+}
+.blue-planet .title{
+    font-size: 0.7rem;
+
+}
+.blue-planet2 .para1{
+    font-size: 0.6rem;
+}
+.blue-planet2 .title{
+    font-size: 0.7rem;
+
+}
+.saven-worlds .title{
+    font-size: 0.7rem;
+}
+.saven-worlds .para1{
+    font-size: 0.6rem;
+    margin-top: 15px;
+}
+.saven-worlds h1{
+    font-size: 0.9rem;
+}
+.our-planet .para1{
+    font-size: 0.6rem;
+}
+.our-planet .title{
+    font-size: 0.7rem;
+
+}
+.our-planet .h1{
+    font-size: 0.9rem;
+}
+.frozen .title{
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+.planet-earth2{
+    box-shadow: #fbc3c9bd 0px 12px 28px 0px, #fbc3c9ac 0px 2px 4px 0px, #fbc3c993 0px 0px 0px 1px inset;
+
+}
+.main2 h1{
+    margin-top: 8px;
+}
